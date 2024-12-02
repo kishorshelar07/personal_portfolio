@@ -26,7 +26,7 @@
     margin: 0;
     border: unset;
     background: var(--primary-color);
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     font-family: Marcellus;
     color: var(--text-color-2);
     line-height: 2;
@@ -38,7 +38,10 @@
 .nav_ac:hover {
     color: var(--text-color-2);
 }
-
+.navbar-brand{
+   position: absolute;
+   right: 0;
+}
 .br-top,
 .br-bottom,
 .br-right,

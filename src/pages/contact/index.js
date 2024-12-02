@@ -116,7 +116,7 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="6" className="form-group">
                   <input
-                    className="form-control"
+                    className="form-control "
                     id="name"
                     name="name"
                     placeholder="Name"
