@@ -134,6 +134,7 @@ export const ContactUs = () => {
                     placeholder="Email"
                     type="email"
                     value={formData.email || ""}
+                    target="_blank"
                     required
                     onChange={handleChange}
                   />
