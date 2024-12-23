@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { contactConfig, meta } from "../../content_option";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -19,7 +18,7 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    setFormdata({ ...formData, loading: true });
 
     const templateParams = {
       from_name: formData.email,
@@ -39,8 +38,11 @@ export const ContactUs = () => {
         (result) => {
           console.log(result.text);
           setFormdata({
+            email: "",
+            name: "",
+            message: "",
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for your message.",
             variant: "success",
             show: true,
           });
@@ -48,7 +50,9 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            ...formData,
+            loading: false,
+            alertmessage: `Failed to send! ${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -81,12 +85,9 @@ export const ContactUs = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
-              //show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
-              onClose={() => setFormdata({ show: false })}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"}`}
+              onClose={() => setFormdata({ ...formData, show: false })}
               dismissible
             >
               <p className="my-0">{formData.alertmessage}</p>
@@ -116,11 +117,11 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="6" className="form-group">
                   <input
-                    className="form-control "
+                    className="form-control"
                     id="name"
                     name="name"
                     placeholder="Name"
-                    value={formData.name || ""}
+                    value={formData.name}
                     type="text"
                     required
                     onChange={handleChange}
@@ -133,7 +134,7 @@ export const ContactUs = () => {
                     name="email"
                     placeholder="Email"
                     type="email"
-                    value={formData.email || ""}
+                    value={formData.email}
                     target="_blank"
                     required
                     onChange={handleChange}

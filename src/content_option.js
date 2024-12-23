@@ -167,9 +167,9 @@ const contactConfig = {
     YOUR_EMAIL: "kishorshelar560@gmail.com",
     YOUR_FONE: "+91 8308516345",
     description: "Have a project in mind or want to collaborate? Feel free to reach out through the form below or contact me directly—I’d love to connect! ",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_gimpynn",
+    YOUR_TEMPLATE_ID: "template_ez7r925",
+    YOUR_USER_ID: "L0VosmhtLtevsRhGP",
 };
 
 const socialprofils = {
