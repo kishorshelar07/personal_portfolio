@@ -101,65 +101,65 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/Netflix-Clone-Website/refs/heads/main/netflix_clone.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/Netflix-Clone-Website/",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/reminder_and_notifiy/refs/heads/main/reminder.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/reminder_and_notifiy/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/digital_clock_with_analog_clock/refs/heads/main/clock.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/digital_clock_with_analog_clock/",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/personal_portfolio/refs/heads/main/portfolio.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/personal_portfolio/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/analog_colck/refs/heads/main/analog_clock.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/analog_colck/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/landing_page_for_cars/refs/heads/main/car.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/landing_page_for_cars/",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/tic_tac_toe_game/refs/heads/main/tic_tac_toe.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/tic_tac_toe_game/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/Funny-Mind-Reading-/refs/heads/main/mind_reading.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/Funny-Mind-Reading-/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/To-Do-List/refs/heads/main/to_do.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/To-Do-List/",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/react_routing/refs/heads/main/react_web_temp.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/react_routing/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/kishorshelar07/CSS-Manipulation-/refs/heads/main/css_js.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "https://kishorshelar07.github.io/CSS-Manipulation-/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://cdn.prod.website-files.com/6009ec8cda7f305645c9d91b/6675ffe8861e8716cd1e32c9_6675a6c91e6a81dc3bfc5e60_AD_4nXd7kZbcia67qkVmonpycFol5UiAK53f2atP5cQSz78xxjQwYiG0XMgEa2Ah0c-rGcF10667UtSYMY1t-1kKg05_bmw2tfXeibNRILOur915HVexSrWPzJ91srSdcMS9_y99_3lRtJW1aig-7nMk4KyQzxHS.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "http://kishorshelar.great-site.net/",
     },
 ];
 
